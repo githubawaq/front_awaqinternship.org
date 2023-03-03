@@ -59,6 +59,11 @@
   font-size: 16px;
   font-weight: 100;
   color: var(--color-dark);
+  transition: all 600ms;
+}
+
+.footer-content-left-info a:hover {
+  color: var(--color-primary);
 }
 
 .footer-content-right-info {
@@ -68,6 +73,8 @@
 }
 
 .footer-content-right-register {
+  display: flex;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -85,18 +92,28 @@
 }
 
 .footer-btn {
-  background-color: #74b62e;
+  background-color: var(--color-secondary);
   height: 33px;
   border: none;
   color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 12px;
   margin-left: -5px;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+  transition: all 1000ms;
+  font-weight: bold;
+}
+
+.footer-btn:hover {
+  background-color: var(--color-light);
+  border: 1px solid var(--color-dark);
+  color: var(--color-dark);
 }
 
 .footer-input {
@@ -104,8 +121,7 @@
   height: 22px;
   border-radius: 5px;
   padding: 5px;
-  margin-bottom: 10px;
-  border: none;
+  border: 1px solid transparent;
 }
 
 .footer-input::-webkit-input-placeholder {
@@ -118,6 +134,14 @@
   cursor: pointer;
   filter: invert(26%) sepia(41%) saturate(385%) hue-rotate(135deg)
     brightness(95%) contrast(84%);
+  width: 30px;
+  transition: all 600ms;
+}
+
+.footer-social:hover {
+  filter: invert(36%) sepia(88%) saturate(435%) hue-rotate(136deg)
+    brightness(97%) contrast(84%);
+  transform: scale(1.2);
 }
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
@@ -145,5 +169,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .footer-content-right-info {
+    justify-content: center;
+  }
+  .footer-social {
+    width: 20px;
   }
 }
