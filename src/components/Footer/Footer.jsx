@@ -8,9 +8,9 @@ import microsoft from "../../assets/partners/microsoft.png";
 import rainbown from "../../assets/partners/rainbow.png";
 import saleforce from "../../assets/partners/saleforce.png";
 import sena from "../../assets/partners/sena.png";
-import facebook from "../../assets/social/facebook.svg";
-import instagram from "../../assets/social/instagram.svg";
-import linkedin from "../../assets/social/linkedin.svg";
+import facebook from "../../assets/social/fcb.svg";
+import instagram from "../../assets/social/insta.svg";
+import linkedin from "../../assets/social/linked.svg";
 
 const Footer = () => {
   return (
@@ -55,24 +55,31 @@ const Footer = () => {
               <img
                 className="footer-social"
                 src={facebook}
-                alt="logo chec"
+                alt="logo facebook"
                 width="30px"
               />
               <img
                 className="footer-social"
                 src={instagram}
-                alt="logo booking"
-                width="30px"
+                alt="logo instagram"
+                width="40px"
+                color="red"
               />
+
               <img
                 className="footer-social"
                 src={linkedin}
                 alt="logo ean"
                 width="30px"
+                fill="blue"
               />
             </div>
             <div className="footer-content-right-register">
-              <input type="text" className="footer-input" />
+              <input
+                type="text"
+                className="footer-input"
+                placeholder="Correo Electrónico"
+              />
               <button className="footer-btn">Registrarse</button>
             </div>
           </div>

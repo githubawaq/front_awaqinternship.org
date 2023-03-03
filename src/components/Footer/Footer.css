@@ -1,6 +1,5 @@
 .footer-container {
   width: 100%;
-  height: 400px;
   background-color: #e9f1f1;
   position: absolute;
   bottom: 0;
@@ -16,23 +15,19 @@
 .footer-content-top-logos {
   width: 90%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
+
 .footer-content-top-logos img {
-  filter: grayscale(100%);
-  transition: all 600ms;
-}
-.footer-content-top-logos img:hover {
-  filter: grayscale(0%);
+  padding-top: 10px;
 }
 
 .footer-content-medium {
   color: var(--color-dark);
-
   display: flex;
   justify-content: center;
   width: 90%;
@@ -63,12 +58,13 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 100;
-  color: black;
+  color: var(--color-dark);
 }
 
 .footer-content-right-info {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .footer-content-right-register {
@@ -90,6 +86,7 @@
 
 .footer-btn {
   background-color: #74b62e;
+  height: 33px;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -97,19 +94,56 @@
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin: 4px 2px;
-  border-radius: 5px;
+  margin-left: -5px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
 }
 
 .footer-input {
   width: 40%;
-  height: 20px;
-  border: 1px solid var(--color-dark);
+  height: 22px;
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 10px;
+  border: none;
+}
+
+.footer-input::-webkit-input-placeholder {
+  padding-left: 10px;
+  font-size: 12px;
 }
 
 .footer-social {
-  color: red;
+  padding-right: 10px;
+  cursor: pointer;
+  filter: invert(26%) sepia(41%) saturate(385%) hue-rotate(135deg)
+    brightness(95%) contrast(84%);
+}
+
+/*********** MEDIA QUERIES (MEDIUM DEVICES ************/
+@media screen and (max-width: 1180px) {
+  .footer-btn {
+    display: none;
+  }
+
+  .footer-input {
+    display: none;
+  }
+}
+
+/*********** MEDIA QUERIES (SMALL DEVICES ************/
+@media screen and (max-width: 600px) {
+  .footer-btn {
+    display: none;
+  }
+
+  .footer-input {
+    display: none;
+  }
+
+  .footer-content-medium {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
