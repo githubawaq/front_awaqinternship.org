@@ -1,0 +1,277 @@
+.board-container {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.board-top {
+  text-align: center;
+}
+
+.board-top h1 {
+  color: var(--color-primary);
+  font-family: "Nanum Pen Script";
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.board-top p {
+  color: var(--color-secondary);
+  font-size: 20px;
+}
+
+.board-bottom {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: white;
+}
+
+.board-bottom-left {
+  background-color: var(--color-secondary);
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--color-secondary);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-left:hover img {
+  filter: invert(46%) sepia(21%) saturate(1496%) hue-rotate(136deg)
+    brightness(88%) contrast(90%);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-left:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-left::after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  display: block;
+  transition: all 1000ms ease;
+}
+
+.board-bottom-left::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-left:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+  transition: all 1000 ease-out;
+}
+
+.board-bottom-center {
+  background-color: var(--color-dark);
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--color-dark);
+}
+
+.board-bottom-center:hover img {
+  filter: invert(46%) sepia(21%) saturate(1496%) hue-rotate(136deg)
+    brightness(88%) contrast(90%);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-center:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-center::after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  display: block;
+  transition: all 1000ms ease;
+}
+
+.board-bottom-center::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-center:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+  transition: all 1000 ease-out;
+}
+
+.board-bottom-right {
+  background-color: var(--color-primary);
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--color-primary);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-right:hover img {
+  filter: invert(46%) sepia(21%) saturate(1496%) hue-rotate(136deg)
+    brightness(88%) contrast(90%);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-right:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-right::after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  display: block;
+  transition: all 1000ms ease;
+}
+
+.board-bottom-right::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 1000ms ease;
+}
+
+.board-bottom-right:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+  transition: all 1000ms ease-out;
+}
+
+.board-bottom-left-left {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-bottom-left-left img {
+  width: 100px;
+}
+
+.board-bottom-left-right {
+  width: 50%;
+  text-align: start;
+  margin: 0;
+}
+
+.board-bottom-center-left {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-bottom-center-left img {
+  width: 80px;
+}
+
+.board-bottom-center-right {
+  height: 100%;
+  text-align: start;
+  margin: 0;
+  width: 50%;
+}
+
+.board-bottom-right-left {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-bottom-right-left img {
+  width: 80px;
+}
+
+.board-bottom-right-right {
+  height: 80%;
+  width: 50%;
+  text-align: start;
+}
+
+/*********** MEDIA QUERIES (MEDIUM DEVICES ************/
+@media screen and (max-width: 1180px) {
+  .board-bottom {
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .board-bottom-left {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .board-bottom-center {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .board-bottom-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/*********** MEDIA QUERIES (SMALL DEVICES ************/
+@media screen and (max-width: 600px) {
+  .board-bottom {
+    flex-direction: column;
+    width: 90%;
+  }
+}
