@@ -1,11 +1,11 @@
-import Footer from "./components/Footer/Footer";
-import Board from "./components/Board/Board";
+// import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/index"
 
 function App() {
   return (
     <>
-      <Board />
-      <Footer />
+      <Home />
+      {/* <Footer /> */}
     </>
   );
 }
