@@ -1,16 +1,8 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  purge: [
-    './index.html',
-    './src/**/*.{js,jsx,ts,tsx,vue}'
-  ],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
-  },
+  purge: ['./index.html', './src/**/*.{js,ts,jsx,tsx,vue}'],
+  darkMode: false,
+  theme: {},
+  variants: {},
   plugins: [],
-}
+};
