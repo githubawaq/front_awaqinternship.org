@@ -1,9 +1,11 @@
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/index"
 
 function App() {
   return (
     <>
-      <Footer />
+      <Home />
+      {/* <Footer /> */}
     </>
   );
 }
