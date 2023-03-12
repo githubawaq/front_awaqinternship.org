@@ -5,12 +5,12 @@ import email from "../../assets/icons/email.svg";
 
 const Board = () => {
   return (
-    <div className="w-full mb-12">
+    <div className="w-11/12	my-0	mr-auto ml-auto mb-12">
       <div className="text-center">
         <h1 className="text-5xl text-turquoise-blue font-nanum tracking-widest	 ">
           Listo para abordar?
         </h1>
-        <p className="text-green text-xl">
+        <p className="text-green text-xl mt-5 font-custom ">
           Juntos podemos hacer que tu experiencia de intercambio sea
           inolvidable.
         </p>
@@ -22,8 +22,8 @@ const Board = () => {
             <img src={board} alt="" className="w-24" />
           </div>
           <div className=" w-6/12 m-0 text-start	">
-            <h3 className="font-bold mt-7">APLICA AHORA</h3>
-            <h6 className=" mb-7 text-xs">
+            <h3 className="font-bold mt-7 font-custom">APLICA AHORA</h3>
+            <h6 className=" mb-7 text-xs font-custom">
               Completa tu aplicacion online y preparate para vivir una
               experiencia extraordinaria en el extranjero.
             </h6>
@@ -34,8 +34,8 @@ const Board = () => {
             <img src={info} alt="" className="w-20" />
           </div>
           <div className=" m-0 w-6/12 text-start">
-            <h3 className="font-bold mt-7">INFORMACIÓN</h3>
-            <h6 className=" mb-7 text-xs">
+            <h3 className="font-bold mt-7 font-custom">INFORMACIÓN</h3>
+            <h6 className=" mb-7 text-xs font-custom">
               No estas seguro de que programa es el adecuado? Te ayudamos a
               elegir el programa que mejor se adapte a ti.
             </h6>
@@ -48,8 +48,8 @@ const Board = () => {
           </div>
 
           <div className="w-6/12 text-start">
-            <h3 className="font-bold mt-7 ">CONTACTANOS</h3>
-            <h6 className=" mb-7 text-xs">
+            <h3 className="font-bold mt-7 font-custom">CONTACTANOS</h3>
+            <h6 className=" mb-7 text-xs font-custom">
               Si tienes alguna duda o quieres saber mas sobre nuestros programas
               de intercambio, no dudes en contactarnos.
             </h6>
