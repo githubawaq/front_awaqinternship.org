@@ -33,7 +33,7 @@ const Programs = () => {
           <img
             src={grupal}
             alt=""
-            className="	w-full h-full rounded-lg z-0 opacity-50 "
+            className="	w-full h-full rounded-lg z-0 opacity-50 object-cover	"
           />
         </div>
         <div className="w-2/5	h-96	bg-black  rounded-lg relative sm:w-full sm:h-80 sm:mt-5   md:w-full md:mt-5 md:h-80 lg:w-full lg:mt-5  xl:w-full xl:mt-5 ">
@@ -52,7 +52,7 @@ const Programs = () => {
           <img
             src={individual}
             alt=""
-            className="	w-full h-full rounded-lg z-0 opacity-50"
+            className="	w-full h-full rounded-lg z-0 opacity-50 object-cover	"
           />
         </div>
       </div>
