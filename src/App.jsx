@@ -1,11 +1,11 @@
-// import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/index"
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/index";
 
 function App() {
   return (
     <>
       <Home />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

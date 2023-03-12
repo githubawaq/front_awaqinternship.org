@@ -30,7 +30,7 @@ const Headboard = () => {
         ))}
       </Swiper>
       <div className="mx-10 top-10 absolute">
-        <div className="max-h-32 font-custom m-3 sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-widest  text-turquoise-blue">
+        <div className="max-h-32 font-custom m-3 sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-widest  text-turquoise-blue font-bold		">
           <h1>
             AWAQ <br />
             CAMPUS <br />
