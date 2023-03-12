@@ -144,12 +144,8 @@ const Footer = () => {
                 color="red"
               />
 
-              <img
-                className="w-7	cursor-pointer"
-                src={linkedin}
-                alt="logo ean"
-                fill="blue"
-              />
+              <img className="w-7	" src={linkedin} alt="logo ean" fill="blue" />
+              {/* //filter: invert(26%) sepia(33%) saturate(392%) hue-rotate(135deg) brightness(102%) contrast(93%); */}
             </div>
             <div className="flex items-center mt-5">
               <input
