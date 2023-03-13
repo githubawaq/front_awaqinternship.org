@@ -25,7 +25,7 @@ const Headboard = () => {
         {imgSwiper?.map((img, id) => (
           <SwiperSlide key={id}>
             <dir className="my-0 mx-0 w-full">
-              <img src={img.img} alt={img.name} />
+              <img src={img.img} alt={img.name} className="my-0 mx-0 w-full object-fill" />
             </dir>
           </SwiperSlide>
         ))}
