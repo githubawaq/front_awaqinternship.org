@@ -3,9 +3,9 @@
 @import "tailwindcss/utilities";
 
 .bt-green {
-  @apply bg-green text-center border-green border-2 text-white active:bg-white active:border-turquoise-blue active:text-turquoise-blue sm:w-24 md:w-28 lg:w-32 xl:w-36 2xl:w-40 text-xs rounded-md p-2 m-1 ;
+  @apply bg-green text-center border-green border-2 text-white active:bg-white active:border-turquoise-blue active:text-turquoise-blue sm:w-24 md:w-28 lg:w-32 xl:w-36 2xl:w-40 text-xs rounded-md p-2 m-1;
 }
 
 .bt-white {
-  @apply bg-white text-center border-turquoise-blue text-turquoise-blue active:bg-green active:border-green active:text-white border-2 sm:w-24 md:w-28 lg:w-32 xl:w-36 2xl:w-40 text-xs rounded-md p-2 m-1 ;
+  @apply bg-white text-center border-turquoise-blue text-turquoise-blue active:bg-green active:border-green active:text-white border-2 sm:w-24 md:w-28 lg:w-32 xl:w-36 2xl:w-40 text-xs rounded-md p-2 m-1;
 }
