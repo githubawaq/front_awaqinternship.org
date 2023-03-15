@@ -1,5 +1,6 @@
 import React from "react";
 import colombia from "../../assets/images/colombia.jpg";
+import SeparatorHome from "../ReuseProvider/Separator";
 
 const Destination = () => {
   return (
@@ -59,7 +60,6 @@ const Destination = () => {
             </div>
           </div>
         </div>
-
         <div className="max-w-sm mx-auto bg-white  mb-5 rounded-xl shadow-md overflow-hidden">
           <div
             className="h-48 bg-cover bg-center"
@@ -86,6 +86,7 @@ const Destination = () => {
       <div className="flex items-center justify-center mt-10">
         <button className="bt-white">Mas Destinos</button>
       </div>
+      <SeparatorHome />
     </div>
   );
 };
