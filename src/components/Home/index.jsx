@@ -5,6 +5,7 @@ import Programs from "./Programs";
 import Housing from "./Housing";
 import Destination from "./Destination";
 import NavBar  from "../NavBar/NavBar";
+import WhyTravel from "./WhyTravel"
 
 const Home = () => {
   
@@ -15,6 +16,7 @@ const Home = () => {
       <Programs />
       <Housing />
       <Destination />
+      <WhyTravel />
       <Board />
     </div>
   );
