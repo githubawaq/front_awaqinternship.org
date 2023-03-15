@@ -5,9 +5,10 @@ import homeHeadboard from "../../assets/home/AwaqInteship-homeHeadboard.png";
 
 const imgSwiper = [{ name: "homeHeadboard", img: homeHeadboard, id: 1 }];
 
+// componetente Cabecera
 const Headboard = () => {
   return (
-    <div className="static">
+    <div className="static items-center justify-center w-full">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -23,8 +24,8 @@ const Headboard = () => {
       >
         {imgSwiper?.map((img, id) => (
           <SwiperSlide key={id}>
-            <dir className="my-0 mx-0 max-w-full max-h-full min-w-[500] h-screen">
-              <img src={img.img} alt={img.name} />
+            <dir className="my-0 mx-0 w-full">
+              <img src={img.img} alt={img.name} className="my-0 mx-0 w-full object-fill" />
             </dir>
           </SwiperSlide>
         ))}
